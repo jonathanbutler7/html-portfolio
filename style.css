@@ -1,0 +1,58 @@
+body {
+    background-color: #FFEFAE;
+}
+
+.nav {
+    text-align: center;
+    padding: 25px
+}
+
+span, li {
+    color: #002BFF;
+    text-decoration: underline;
+    font-family: arial;
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;	
+}
+
+.first-name {
+    padding: 25px;
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;	
+}
+
+h1, h2, h3, p {
+    color: #002BFF;
+}
+
+.intro-container, .about-container {
+    text-align: center;
+    padding: 25px
+}
+
+img {
+    height: 300px;
+    border-radius: 5px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: beige;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+li {
+    display: inline;
+
+}
