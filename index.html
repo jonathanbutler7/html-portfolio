@@ -6,6 +6,8 @@
     <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonathan Butler, web developer</title>
+    <script src="https://kit.fontawesome.com/9ac9818a9c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Raleway&display=swap" rel="stylesheet">
 </head>
 
 
@@ -13,7 +15,12 @@
     
     <!-- navbar with links to each part of the page -->
     
-    <header class="nav-container wrapper">
+    <header class="nav-container">
+        
+        <div class="first-name">
+            <h1>Jonathan Butler</h1>
+        </div>
+        
         <div class="nav">
             <span><a href="#intro">Intro</a></span>
             <span><a href="#about-me">About Me</a></span>
@@ -28,9 +35,7 @@
 
     <main>
 
-        <div class="first-name">
-            <h1>Jonathan _____ Butler</h1>
-        </div>
+        
 
         <!-- image -->
         <div class="group wrapper">
@@ -39,10 +44,10 @@
 
         <div class="wrapper">
             <div class="intro-container">
-                <h2 id="intro">Intro</h2>
+                <h2 id="intro">INTRODUCTION</h2>
                 <div class="group">
                     <div class="item">My name is Jonathan Butler and I have spent my entire professional life until now as a classical cellists, performing concerts all over the world. I completed my doctorate of musical arts in April, writing my dissertation on new teaching methods for young cellists, harnessing their natural creative impulses.</div>
-                    <div class="item">I live in Los Angeles and perform regularly as a studio musician in the local film/TV studios.</div>
+                    <div class="item">I live in Los Angeles and perform regularly as a studio musician in the local film/TV studios. In my free time I love to get out into nature with my brother and sister and take photos on my iPhone SE. I took the photo above on a hike to Point Dume in Malibu.</div>
                     <div class="item">Working as a cello teacher was something I loved because every student brought me a unique set of problems each week, and it was my responsibility to be empathetic, ask the right questions, identify the cause of the student's problems and make sure they walked away with a personalized set of strategies to conquer their challenges that week.</div>
                 </div>
             </div>
@@ -52,7 +57,7 @@
         <!-- about me -->
 
         <div class="nonwrap-group">
-            <h2 id="about-me">About me</h2>
+            <h2 id="about-me">ABOUT ME</h2>
                 <div class="group">
                     <div class="item">Since I was a teenager, I have been enthusiastic about a functional, beautiful website design. I love to define concepts of beauty and functionality and translate them onto the internet.</div>
                     <div class="item">As a professional musician, I have a deep undertanding of the importance of team chemistry. My aim is to be a contributor to the team's highest goals.</div>
@@ -64,34 +69,60 @@
         <!-- projects -->
 
         <div class="wrapper">
-            <h2 id="projects">Projects</h2>
+            <h2 id="projects">PROJECTS</h2>
                 <div class="group">
                     <div class="item">Web App Placeholder</div>
                     <div class="item">This app is functional and fun to use! I built it using HTML, CSS, JS, React, and Node.</div>
-                    <div class="item">link to github</div>
+                    <div class="item">link to github repo</div>
                 </div>
         </div>  
 
-        <!-- contact info -->
+        <!-- get in touch -->
 
         <div class="nonwrap-group">
-            <h2 id="contact">Contact</h2>
+            <h2 id="contact">STALK ME</h2>
                 <div class="group">
                     
                     <div class="item">
-                        <a href="https://www.github.com/jonathanbutler7" target="blank"><img class="icon" src="images/GitHub-Mark-120px-plus.png" alt=""></a>
+                        <a href="https://www.github.com/jonathanbutler7" target="blank"><i class="fab fa-github fa-2x"></i></i></a>
                     </div>
                     
                     <div class="item"> 
-                        <a href="mailto:jonathanbutler7@gmail.com?subject=Hello, Jonathan!" target="blank"><img src="images/pinpng.com-email-png-white-4471449.png" alt="" class="icon"></a>
+                        <a href="https://www.twitter.com/jonathanbutler7" target="blank"><i class="fab fa-twitter fa-2x"></i></a>
                     </div>
                     
                     <div class="item">
-                        <a href="https://www.linkedin.com/jonathanbutler7" target="blank"><img src="images/LI-In-Bug.png" alt="" class="icon"></a>
+                        <a href="https://www.linkedin.com/jonathanbutler7" target="blank"><i class="icon fab fa-linkedin-in fa-2x"></i></a>
                     </div>
                 </div>
         </div>
-    
+
+        <!-- EMAIL ME -->
+
+        <h2>EMAIL ME</h2>
+        <div class="form-container">
+            <form action="https://formspree.io/xrgypngv" method="POST" >
+                <label>
+                    <legend>Your email:</legend>
+                    <input type="text" name="_replyto">
+                </label>
+
+                <label for="">
+                    <legend>Subject:</legend>
+                    <input type="text">
+                </label>
+
+                <label>
+                    <legend>Your message:</legend>
+                    <textarea name="message" class="msg-box"></textarea>
+                </label>
+                <button type="submit">Send</button>  
+            </form>
+        </div>
+
+        <div class="group wrapper">
+            <img src="images/latigo-sunset.JPG" alt="point-dume-pic">
+        </div>        
                     
     </main>
 
